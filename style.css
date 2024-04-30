@@ -13,6 +13,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #EF4700;
+  --bs-primary-darker: #b33600;
   --bs-primary-rgb: 239, 71, 0;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
@@ -24,6 +25,7 @@
   --bs-font-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-btn-bg: #EF4700;
 }
 
 body {
@@ -68,4 +70,49 @@ body {
 .background-video {
   border-radius: 25px;
   width: 100%;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.paragraph {
+  font-size: 16px;
+}
+
+.layout-img {
+  max-width: 400px;
+  width: 100%;
+}
+
+img.check {
+  width: 50px;
+  margin: 10px 0px 20px;
+}
+
+.why-shrunk {
+  max-width: 200px;
+}
+
+.services-list {
+  font-size: 22px;
+}
+
+.review-name {
+  font-weight: bold;
+}
+
+.btn-themed {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-themed:hover, .btn-themed:focus, .btn-themed:active {
+  background-color: var(--bs-primary-darker) !important;
+  border-color: var(--bs-primary-darker) !important;
 }
